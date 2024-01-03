@@ -20,8 +20,8 @@
     <!--Header Section-->
     <header class="header">
       <div class="container flex">
-        <nav class="nav-bar-container link flex">
-          <a class="logo link" href="./index.html">Web<span class="span-logo-header">Studio</span>
+        <nav class="nav-bar-container link flex ">
+          <a class="logo link first-menu-item" href="./index.html">Web<span class="span-logo-header">Studio</span>
           </a>
           <ul class="list flex">
             <li><a href="./index.html" class="nav-list-item link">Studio</a></li>
@@ -32,8 +32,8 @@
         
           <address class="address-class">
             <ul class="list flex">
-              <li><a href="mailto:info@devstudio.com" class="address-list link">info@devstudio.com</a></li>
-              <li><a href="tel:+110001111111" class="address-list link">+11 (000) 111-11-11</a></li>
+              <li><a href="mailto:info@devstudio.com" class="address-list link first-menu-item">info@devstudio.com</a></li>
+              <li><a href="tel:+110001111111" class="address-list link first-menu-item">+11 (000) 111-11-11</a></li>
             </ul> 
           </address>
       </div>
@@ -44,7 +44,7 @@
       <section class="section-style">
         <div class="container">
           <h1 class="section-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-order-service">Order Service</button>
+        <button type="button" class="button-order-service" data-modal-open="">Order Service</button>
         </div>
       </section>
       <!--Section2-->
@@ -401,5 +401,19 @@
       
       
     </footer>
+    <div data-modal-open="" class="modal-container is-hidden">
+      <div class="modal-window">
+        <button type="button" data-modal-close class="modal-button">
+          <svg width="8" height="8" class="modal-svg">
+            <use href="">
+
+            </use>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+    <script src="./modal.js"></script>
+
   </body>
 </html>
