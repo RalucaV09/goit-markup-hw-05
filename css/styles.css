@@ -593,7 +593,7 @@ font-family: "Raleway", sans-serif;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
+    ransition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0, 0.2, 1);
 }
 
 
@@ -676,9 +676,11 @@ font-family: "Raleway", sans-serif;
 }
 .elementofbiglist:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .elementofbiglist:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .project-container{
@@ -708,7 +710,7 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;
-    color:var(--light-color);
+    color:#F4F4F4FD;
     padding: 40px 32px;
     background-color: #4d5ae5;
     height:100%;
